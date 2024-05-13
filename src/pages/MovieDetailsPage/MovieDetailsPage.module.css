@@ -1,0 +1,42 @@
+.details {
+  display: flex;
+  flex-direction: row;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 50px;
+  list-style: none;
+}
+
+.description-item {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+}
+
+.subtitle {
+  margin-bottom: 3px;
+}
+
+.additional {
+  display: flex;
+  flex-direction: column;
+}
+
+.additional-item {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.link {
+  color: black;
+}
+
+.link:hover {
+  color: lightsalmon;
+  text-decoration-line: underline;
+}

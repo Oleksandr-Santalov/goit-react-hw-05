@@ -1,0 +1,15 @@
+.main {
+  display: flex;
+
+  margin-top: 20px;
+}
+
+.list-item {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
